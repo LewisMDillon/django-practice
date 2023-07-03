@@ -3,6 +3,8 @@
 import os
 import sys
 
+if os.path.exists("env.py"):
+    import env
 
 def main():
     """Run administrative tasks."""
@@ -20,3 +22,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
